@@ -20,7 +20,7 @@ body{
 
 }
 
-nav{   
+nav{
     width: 100%;
     background-color: #ffffff;
     text-align: center;
@@ -58,7 +58,7 @@ input[type="text"]:focus, textarea:focus {
 }
 
 .gris{
-    color: #999999; 
+    color: #999999;
 }
 .gros{
     font-size: 1.2em;
@@ -254,11 +254,23 @@ div.bloc:hover a.infonoir, div.bloc:hover a.infoblanc{
 }
 
 /*++++++++++++++++++++++++++
+        BD
+++++++++++++++++++++++++++++*/
+
+#papillon{
+    background-image: url(../img/acceuil/papillonsprite.jpg);
+}
+#papillon:hover{
+    background-position: 0px -265px ;
+}
+
+
+/*++++++++++++++++++++++++++
         Photographie
 ++++++++++++++++++++++++++++*/
 
 #costume{
-    
+
     background-image: url(../img/acceuil/costumesprite.jpg);
 }
 #costume:hover{
